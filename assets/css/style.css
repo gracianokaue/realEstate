@@ -43,3 +43,21 @@ nav{
     margin-right: 80px;
 
 }
+
+.logo{
+
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logo-image{
+
+    width: 360px;
+    height: 100%;
+    background-image: url(../images/logo.png);
+    background-size:cover;
+    background-position: center;
+
+}
