@@ -1,0 +1,1 @@
+Real Estate website, desenvolvido por Kauê Graciano, 2022. Site desenvolvido em HTML e CSS com flexbox.
