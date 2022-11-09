@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
+.container{
+
+    max-width: 980vw;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+header{
+
+    height: 223px;
+
+}
+
+nav{
+
+    height: 50px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.menu:nth-child(1){
+
+    margin-left: 80px;
+
+}
+
+.menu:nth-child(5){
+
+    margin-right: 80px;
+
+}
