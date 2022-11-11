@@ -32,6 +32,22 @@ nav{
 
 }
 
+
+.menu{
+
+    height: 26px;
+    background-color: #000000;
+
+}
+
+
+.menu :hover{
+
+    background-color: #FFFFFF;
+    color: #000000;
+
+}
+
 .menu:nth-child(1){
 
     margin-left: 80px;
