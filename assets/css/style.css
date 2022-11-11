@@ -135,3 +135,110 @@ nav{
 
 }
 
+.container-article{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#articles{
+
+    width: 940px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+article{
+
+    width: 440px;
+
+}
+
+.bar{
+
+    width: 440px;
+    height: 2px;
+    background-color: #000000;
+}
+
+.article-title{
+
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+.article1-img{
+
+    width: 440px;
+    height: 265px;
+    background-image: url(../images/article1.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+
+.article2-img{
+
+    width: 440px;
+    height: 265px;
+    background-image: url(../images/article2.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+
+.container-text{
+
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article-text{
+
+    width: 360px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+
+}
+
+.article-button{
+
+    width:50px;
+    height:50px;
+    border-top: #000000 2px solid;
+    border-left: #000000 2px solid;
+    border-right: #000000 2px solid;
+    border-bottom: #000000 2px solid;
+    display: flex;
+    justify-content: center;
+
+}
+
+.article-button-text{
+
+    padding-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.article-button-text a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
