@@ -24,6 +24,7 @@ nav{
     padding: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #000000;
     color: #FFFFFF;
     text-transform: uppercase;
