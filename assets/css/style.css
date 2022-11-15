@@ -242,12 +242,18 @@ nav{
 
 .bt1 .banner-button{
 
-    width: 150px;
+    /*width: 150px;
     height: 40px;
     margin-top: 20px;
     margin-left: 95px;
     background-color: #000000;
+    border: #FFFFFF 2px solid;*/
+    height: 40px;
+    width:auto;
+    margin-top: 20px;
+    background-color: #000000;
     border: #FFFFFF 2px solid;
+
 
 }
 
