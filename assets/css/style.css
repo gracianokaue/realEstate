@@ -20,7 +20,7 @@ header{
 
 nav{
 
-    height: 50px;
+    height: 60px;
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -32,11 +32,120 @@ nav{
 
 }
 
+.smartphone{
+
+    display: none;
+
+}
+
 
 .menu{
 
     height: 26px;
     background-color: #000000;
+
+}
+
+.menu-faketrigger{
+
+    position: absolute;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.menu-faketrigger:checked ~.menu-lines span{
+
+    background-color: #000000;
+
+}
+
+.menu-faketrigger:checked ~.menu-lines span:nth-child(1){
+
+    transform-origin: 0% 0%;
+    transform:rotate(45deg) scaleX(1.25);
+
+}
+
+.menu-faketrigger:checked ~.menu-lines span:nth-child(2){
+
+    opacity: 0;
+
+}
+
+.menu-faketrigger:checked ~.menu-lines span:nth-child(3){
+
+    transform-origin: 0% 100%;
+    transform:rotate(-45deg) scaleX(1.25);
+
+}
+
+.menu-lines{
+
+    position: absolute;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+
+}
+
+.menu-lines span{
+
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transition: all ease .2s;
+
+}
+
+.smartphone ul{
+
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    margin-left: -250px;
+    transition: all ease .2s;
+
+}
+
+
+.menu-faketrigger:checked ~ul{
+
+    margin-left: 0;
+
+}
+
+.smartphone ul li{
+
+    padding: 10px 30px;
+
+
+}
+
+.smartphone ul li a{
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.smartphone ul li a:hover{
+
+    border-bottom: #000000 2px solid;
 
 }
 
@@ -182,9 +291,10 @@ article{
 
 }
 
+
 .bar{
 
-    width: 440px;
+    width: 90%;
     height: 2px;
     background-color: #000000;
 }
@@ -317,6 +427,60 @@ footer{
         flex-wrap: wrap;
         padding-top: 60px;
     
+    }
+
+    #article2{
+
+        padding-top: 60px;
+
+    }
+
+
+
+}
+
+@media(max-width:450px){
+
+    
+    .menu{
+
+        display: none;
+
+    }
+
+    .smartphone{
+        display: block;
+        position: absolute;
+    }
+
+    
+    article{
+
+        width: 100%;
+    
+    }
+    
+    #articles{
+
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 60px;
+    
+    }
+
+    .article1-img{
+
+        width: 100%;
+
+    }
+
+    .article2-img{
+
+        width: 100%;
+
     }
 
     #article2{
