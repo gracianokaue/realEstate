@@ -6,7 +6,7 @@
 
 .container{
 
-    max-width: 980vw;
+    max-width: 100vw;
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     font-size: 13px;
 
@@ -305,3 +305,26 @@ footer{
 
 }
 
+
+@media(min-width:450px) and (max-width:800px){
+
+    #articles{
+
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 60px;
+    
+    }
+
+    #article2{
+
+        padding-top: 60px;
+
+    }
+
+
+
+}
